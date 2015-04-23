@@ -1,5 +1,6 @@
 
 import restful from 'node-restful';
+import ContentSchema from './content';
 const mongoose = restful.mongoose;
 
 const LayoutScope = mongoose.Schema({
