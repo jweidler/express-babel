@@ -1,0 +1,17 @@
+---
+- _id: 1
+  type: header
+  styles:
+    backgroundColor: "#f00"
+  children:
+    - _id: 3
+      type: title
+      data:
+        html: Title
+    - _id: 4
+      type: slideshow
+
+- _id: 2
+  type: navigation
+  styles:
+      backgroundColor: "#ff0"

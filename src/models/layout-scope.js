@@ -21,7 +21,9 @@ const LayoutScope = mongoose.Schema({
         required: false
     },
     contents: [ContentSchema],
-    children: [LayoutScope]
+    children: [LayoutScope],
+
+    editorConfig: Object
 });
 
 export default LayoutScope;

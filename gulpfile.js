@@ -16,7 +16,8 @@ var ecmaScriptFiles = [
 var filesToCopy = [
     './'+srcPath+'/**/*.jade',
     './'+srcPath+'/public/*.*',
-    './'+srcPath+'/public/**/*.*'
+    './'+srcPath+'/public/**/*.*',
+    './'+srcPath+'/**/*.yml'
 ];
 
 gulp.task('buildEcmaScriptFiles', function() {
